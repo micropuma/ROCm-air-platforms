@@ -18,7 +18,7 @@ echo ${ROCT_DIR}
 echo ${INSTALL_DIR}
 
 git clone --branch ${ROCT_BRANCH} --depth 1 \
-  https://github.com/RadeonOpenCompute/ROCT-Thunk-Interface ${ROCT_DIR}
+  git@github.com:ROCm/ROCT-Thunk-Interface.git ${ROCT_DIR}
 
 mkdir -p ${BUILD_DIR}
 
