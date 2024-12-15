@@ -22,7 +22,7 @@ BUILD_DIR=${ROCR_DIR}/src/build
 HSAKMT_DIR=${INSTALL_DIR}/lib/cmake/hsakmt
 
 git clone --branch ${ROCM_BRANCH} --depth 1 \
-  https://github.com/RadeonOpenCompute/ROCR-Runtime ${ROCR_DIR}
+  git@github.com:ROCm/ROCR-Runtime.git ${ROCR_DIR}
 
 mkdir -p ${BUILD_DIR}
 
